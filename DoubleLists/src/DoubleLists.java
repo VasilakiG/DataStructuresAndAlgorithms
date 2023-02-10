@@ -1,3 +1,5 @@
+import java.util.NoSuchElementException;
+
 class DoublyNode{
     int data;
     DoublyNode previous;
@@ -26,19 +28,68 @@ class DoublyLinkedList<I extends Number> {
         return length;
     }
 
-    public void insertLast(int data){
+    public void insertFirst(int data){
+        DoublyNode newNode = new DoublyNode(data);
 
+        if (isEmpty()) {
+            tail = newNode;
+        }else{
+            head.previous = newNode;
+        }
+
+        newNode.next = head;
+        head = newNode;
+        length++;
+    }
+
+    public void insertLast(int data){
         DoublyNode newNode = new DoublyNode(data);
 
         if (isEmpty()){
             head = newNode;
         }else{
             tail.next = newNode;
+            newNode.previous = tail;
         }
 
-        newNode.previous = tail;
         tail = newNode;
         length++;
+    }
+
+    public DoublyNode deleteFirst(){
+        if (isEmpty()) {
+            throw new NoSuchElementException();
+        }
+
+        DoublyNode temp = head;
+        if (head == tail) {
+            tail = null;
+        }else{
+            head.next.previous = null;
+        }
+
+        head = head.next;
+        temp.next = null;
+        length--;
+        return temp;
+    }
+
+    public DoublyNode deleteLast(){
+        if (isEmpty()) {
+            throw new NoSuchElementException();
+        }
+
+        DoublyNode temp = tail;
+        if (head == tail) {
+            head = null;
+        }else{
+            tail.previous.next = null;
+        }
+
+        tail = tail.previous;
+        temp.previous = null;
+        length--;
+        return temp;
     }
 
     public void printForward(){
@@ -69,6 +120,8 @@ class DoublyLinkedList<I extends Number> {
         System.out.println("null");
     }
 
+
+
     @Override
     public String toString() {
 
@@ -95,14 +148,15 @@ public class DoubleLists {
 
         DoublyLinkedList<Integer> dll = new DoublyLinkedList<Integer>();
 
-        dll.insertLast(1);
-        dll.insertLast(2);
-        dll.insertLast(3);
-        dll.insertLast(4);
-        dll.insertLast(5);
+        dll.insertFirst(1);
+        dll.insertFirst(2);
+        dll.insertFirst(3);
+        dll.insertFirst(4);
+        dll.insertFirst(5);
 
         dll.printForward();
         dll.printBackwards();
+
 
     }
 }
