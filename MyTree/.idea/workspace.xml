@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5df49ec7-8987-44ed-8523-f47ad3731c8c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../MyQueue/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyQueue/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyQueue/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyQueue/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyQueue/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyQueue/MyQueue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stack/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stack/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stack/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stack/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stack/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stack/Stack.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CircularSingleLists/src/CircularSingleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CircularSingleLists/src/CircularSingleList.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2LdlhP0gq5gi4djFeE7GQMDO19E" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5df49ec7-8987-44ed-8523-f47ad3731c8c" name="Changes" comment="" />
+      <created>1676208960764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676208960764</updated>
+      <workItem from="1676208961811" duration="1000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
